@@ -1,7 +1,7 @@
 import React from 'react';
 import Atropos from 'atropos/react';
 import Style from './Card.module.css'
-import {AiFillGithub, AiOutlineLinkedin} from 'react-icons/Ai';
+import 'boxicons';
 
 
 const Card = ({nome, idade, foto, github, linkedin}) => {
@@ -17,8 +17,8 @@ const Card = ({nome, idade, foto, github, linkedin}) => {
                     <h2 data-atropos-offset="0">{idade} </h2>
                 </div>
                     <div className={Style.cardIcon}>
-                        <a data-atropos-offset="3" href={github}><AiFillGithub/></a>
-                        <a data-atropos-offset="-3%" href={linkedin}><AiOutlineLinkedin/>
+                        <a data-atropos-offset="3" href={github}><box-icon type='logo' name='github'></box-icon></a>
+                        <a data-atropos-offset="-3%" href={linkedin}><box-icon name='linkedin-square' type='logo' ></box-icon>
                         </a>
                     </div>
                 </div>

@@ -71,9 +71,9 @@
 
 }
 
-.cardIcon a svg {
+.cardIcon a{
     width: 30px;
-    padding: 5px 15px 3px 5px;
+    padding: 5px 5px 3px 5px;
     color: #000000;
     height: auto;
 }
