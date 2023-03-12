@@ -2,14 +2,14 @@ import React from 'react';
 import Atropos from 'atropos/react';
 import Style from './Card.module.css'
 import 'boxicons';
+import imgs from './imgs/imagemPerfil.png'
 
-
-const Card = ({nome, idade, foto, github, linkedin}) => {
+const Card = ({nome, idade, github, linkedin}) => {
     return (
         <Atropos className="my_atropos">
             <div className={Style.cardProfile}>
                 <div className={Style.cardImg}>
-                    <img src={foto} alt={nome} data-atropos-offset="-5"/>
+                    <img src={imgs} alt={nome} data-atropos-offset="-5"/>
                 </div>
                 <div className={Style.cardInfo}>
                     <div className={Style.cardText}>

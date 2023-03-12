@@ -77,3 +77,36 @@
     color: #000000;
     height: auto;
 }
+@media screen and (max-width: 767px) {
+    .cardProfile {
+        
+      height: auto;
+      flex-wrap: wrap;
+    }
+    
+    .cardImg {
+        justify-content: center;
+      width: 100%;
+      padding: 0;
+    }
+    
+    .cardInfo {
+      padding: 10px 0;
+    }
+    
+    .cardText {
+      padding: 0;
+      margin-left: 10px;
+      flex-grow: 1;
+    }
+    
+    .cardText h1 {
+      font-size: 20px;
+    }
+    
+    .cardText h2 {
+      font-size: 16px;
+    }
+  }
+  
+  
